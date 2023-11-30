@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("img1.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#play {
+    background-color: rgba(78, 180, 109, 0.438);
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: #32b93d;
+    font-weight: bolder;
+    border-width: 4px;
+    color: rgb(255, 255, 255);
+    margin-top: 15%;
+}
+
+#play:hover {
+    background-color: rgb(53, 192, 95);
+}
+
+
+
+
+/* body { 
+    background: url("img1.jpg") no-repeat center center fixed;
+    background-size: cover;
+} */
+
+
+#dealer-cards img {
+    height: 245px;
+    width: 175px;
+    margin: 1px;
+    display: none;
+}
+
+#your-cards img {
+    height: 245px;
+    width: 175px;
+    margin: 1px;
+    display: none;
+}
+
+#hit {
+    width: 100px;
+    height: 50x;
+    font-size: 20px;
+    display: none;
+
+}
+
+#stay {
+    width: 100px;
+    height: 50x;
+    font-size: 20px;
+    display: none;
+}
+
+#results {
+    display: none;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    border: solid 4px #32b93d;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0.568);
+}
+
+/* #your-sum {
+    display: none;
+}
+
+#dealer-sum {
+    display: none;
+} */
+
+.title {
+    display: none;
+    color: white;
+    font-size: xx-large;
+}
+
+#playagain {
+    display: none;
+    background-color: rgba(78, 180, 109, 0.438);
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: #32b93d;
+    font-weight: bolder;
+    border-width: 4px;
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+}

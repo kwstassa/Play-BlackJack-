@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Blackjack</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <button id="play" onclick="playG()">Start the Game!</button>
+
+
+    <h2 class="title">Dealer: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards">
+        <img id="hidden" src="./cards/BACK.png">
+    </div>
+
+    <h2 class="title">You: <span id="your-sum"></span></h2>
+
+    <div id="your-cards"></div>
+
+    <br>
+    <button id="hit">Hit</button>
+    <button id="stay">Stay</button> <br><br>
+    <p id="results"></p> <br>
+
+    <button id="playagain" onclick="playAgain()">Play Again</button>
+
+</body>
+
+</html>
